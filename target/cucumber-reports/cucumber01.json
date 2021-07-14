@@ -1,0 +1,145 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open login page",
+        "description": "",
+        "id": "check-login-function;open-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33442286500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open login page",
+            "match": {
+              "location": "Login.openLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_cp01"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "check-login-function;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4093797800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the account number \"zhaoyueyou\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zhaoyueyou",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.enterTheAccountNumber(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4085207700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter password \"Aa123456@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aa123456@",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6114927100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account and password prompt \"zhaoyueyou\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zhaoyueyou",
+                  "offset": 29
+                }
+              ],
+              "location": "Login.accountAndPasswordPrompt(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_cp01"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "out login",
+        "description": "",
+        "id": "check-login-function;out-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 775255600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "out login",
+            "match": {
+              "location": "Login.outLogin()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_cp01"
+          }
+        ]
+      }
+    ],
+    "name": "Check login function",
+    "description": "",
+    "id": "check-login-function",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Login.feature",
+    "tags": [
+      {
+        "name": "@login_cp01",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
