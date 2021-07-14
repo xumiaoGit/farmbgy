@@ -102,6 +102,7 @@ public class Farmland {
 
     @Then("^Closing details$")
     public void closingDetails() {
+
         bp.waitime(3000);
         new SelLibrary().findElementByXpathAndClick(closefarm);
         bp.waitime(3000);
